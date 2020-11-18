@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://pairguru-api.herokuapp.com/api/v1//movies/Kill%20Bill
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.1.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 18 Nov 2020 13:41:19 GMT
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"376c9c7ed832eb9a3f461d44a5f32f26"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 77c54b84-d6fa-4bb3-b90c-d547b10d4fde
+      X-Runtime:
+      - '0.013998'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"3","type":"movie","attributes":{"title":"Kill Bill","plot":"The
+        Bride wakens from a four-year coma. The child she carried in her womb is gone.
+        Now she must wreak vengeance on the team of assassins who betrayed her - a
+        team she was once part of.","rating":8.1,"poster":"/kill_bill.jpg"}}}'
+  recorded_at: Wed, 18 Nov 2020 13:41:20 GMT
+recorded_with: VCR 6.0.0

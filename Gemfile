@@ -6,6 +6,7 @@ gem "annotate"
 gem "bootstrap-sass"
 gem "devise"
 gem "draper"
+gem 'faraday'
 gem "haml-rails"
 gem "jquery-rails"
 gem "sass-rails"
@@ -38,4 +39,6 @@ end
 
 group :test do
   gem "shoulda-matchers"
+  gem "webmock"
+  gem "vcr"
 end
