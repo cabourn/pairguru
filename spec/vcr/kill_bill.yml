@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Wed, 18 Nov 2020 13:41:19 GMT
+      - Wed, 18 Nov 2020 15:50:50 GMT
       Connection:
       - keep-alive
       X-Frame-Options:
@@ -37,9 +37,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 77c54b84-d6fa-4bb3-b90c-d547b10d4fde
+      - d097cbe8-c537-4da4-99b0-cf134d00e0b5
       X-Runtime:
-      - '0.013998'
+      - '0.004895'
       Transfer-Encoding:
       - chunked
       Via:
@@ -50,5 +50,5 @@ http_interactions:
         Bride wakens from a four-year coma. The child she carried in her womb is gone.
         Now she must wreak vengeance on the team of assassins who betrayed her - a
         team she was once part of.","rating":8.1,"poster":"/kill_bill.jpg"}}}'
-  recorded_at: Wed, 18 Nov 2020 13:41:20 GMT
+  recorded_at: Wed, 18 Nov 2020 15:50:50 GMT
 recorded_with: VCR 6.0.0
